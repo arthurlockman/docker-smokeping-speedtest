@@ -1,14 +1,14 @@
 # docker-smokeping-speedtest
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jwigley/docker-smokeping-speedtest/Master?label=build%20%28master%29)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jwigley/docker-smokeping-speedtest/Daily?label=build%20%28nightly%29)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/jwigley/smokeping-speedtest/latest)
-[![Docker Pulls](https://img.shields.io/docker/pulls/jwigley/smokeping-speedtest.svg)](https://hub.docker.com/r/jwigley/smokeping-speedtest/)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/arthurlockman/docker-smokeping-speedtest/Master?label=build%20%28master%29)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/arthurlockman/docker-smokeping-speedtest/Daily?label=build%20%28nightly%29)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/arthurlockman/smokeping-speedtest/latest)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jwigley/smokeping-speedtest.svg)](https://hub.docker.com/r/arthurlockman/smokeping-speedtest/)
 
-Smokeping docker image with [smokeping-speedtest](https://github.com/mad-ady/smokeping-speedtest) probe and [speedtest-cli](https://github.com/sivel/speedtest-cli), built upon linuxserver's [docker-smokeping](https://github.com/linuxserver/docker-smokeping) image.
+Smokeping docker image with [smokeping-speedtest](https://github.com/mad-ady/smokeping-speedtest) probe and Ookla's official speedtest CLI, built upon linuxserver's [docker-smokeping](https://github.com/linuxserver/docker-smokeping) image.
 
 ## docker repository
 
-[jwigley/smokeping-speedtest](https://hub.docker.com/r/jwigley/smokeping-speedtest)
+[arthurlockman/smokeping-speedtest](https://hub.docker.com/repository/docker/arthurlockman/smokeping-speedtest)
 
 ## usage
 

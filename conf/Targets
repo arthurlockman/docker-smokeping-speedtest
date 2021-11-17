@@ -6,7 +6,7 @@ title = Speed Tests
 ++ Download
 menu = Download
 title = Download
-probe = speedtest-download
+probe = speedtestcli-download
 measurement = download
 host = dummy.com
 #server = 1737
@@ -14,7 +14,7 @@ host = dummy.com
 ++ Upload
 menu = Upload
 title = Upload
-probe = speedtest-upload
+probe = speedtestcli-upload
 measurement = upload
 host = dummy.com
 #server = 1737

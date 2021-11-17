@@ -16,13 +16,13 @@ check_result () {
   fi
 }
 
-# test 1 - speedtest-cli can list servers
-OUTPUT=$(speedtest-cli --list)
+# test 1 - speedtest can list servers
+OUTPUT=$(speedtest --servers)
 check_result ${?} "speedtest-cli can list servers"
 
-# test 2 - speedtest-cli can execute speed test
-OUTPUT=$(speedtest-cli)
-check_result ${?} "speedtest-cli can execute speed test"
+# test 2 - speedtest can execute speed test
+OUTPUT=$(speedtest)
+check_result ${?} "speedtest can execute speed test"
 
 # output results
 echo PASSED: ${PASSED} FAILED: ${FAILED}

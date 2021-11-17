@@ -12,6 +12,12 @@ RUN apk add python3 --no-cache \
     && cat /speedtest-conf/Probes >> /defaults/smoke-conf/Probes \
     && cat /speedtest-conf/Targets >> /defaults/smoke-conf/Targets
 
+# Install Ookla Speedtest
+RUN cd /tmp
+RUN curl -o speedtest-cli.tgz https://install.speedtest.net/app/cli/ookla-speedtest-1.1.0-x86_64-linux.tgz
+RUN tar zxvf speedtest-cli.tgz -C /usr/local/bin
+RUN curl -L -s -S -o /usr/share/perl5/vendor_perl/Smokeping/probes/speedtestcli.pm https://raw.githubusercontent.com/mad-ady/smokeping-speedtest/master/speedtestcli.pm
+
 # Build image with tests
 FROM alpine:latest as test
 COPY --from=release / /
